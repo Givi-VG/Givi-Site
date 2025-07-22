@@ -1,0 +1,3 @@
+[submodule "givi_ai"]
+	path = givi_ai
+	url = https://github.com/Givi-VG/Givi-Site.git

@@ -265,7 +265,7 @@ const ServiceSelector = ({ services, onServiceSelect }) => {
                     </p>
                   </div>
 
-                  <div className="flex items-center justify-between pt-4">
+{/*                   <div className="flex items-center justify-between pt-4">
                     <div className="flex items-center space-x-2">
                       <div className={`w-6 h-6 rounded-lg flex items-center justify-center ${
                         selectedService.id === service.id
@@ -293,7 +293,7 @@ const ServiceSelector = ({ services, onServiceSelect }) => {
                         {service.timeline}
                       </span>
                     </div>
-                  </div>
+                  </div> */}
 
                   {service.demoAvailable && selectedService.id === service.id && (
                     <div className="mt-6 text-center">
